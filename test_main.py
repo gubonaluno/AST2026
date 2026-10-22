@@ -19,4 +19,4 @@ def test_somar():
 def test_multiplicar():
     response = client.get("/multiplicar/2/2")
     assert response.status_code == 200
-    assert response.json() == {"resultado": 5}  # falha de propósito
+    assert response.json() == {"resultado": 4}
